@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\construcmanagement.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 253,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConstrucManagement.Domain",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-19T01:34:03.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
