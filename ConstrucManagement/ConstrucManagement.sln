@@ -6,7 +6,7 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstrucManagement.Api", "..\ConstrucManagement.Api\ConstrucManagement.Api.csproj", "{4F4151BF-33BA-4C95-B026-FCC0AE4FEEE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstrucManagement.Application", "ConstrucManagement.Application\ConstrucManagement.Application.csproj", "{7BE19785-67D4-4173-9448-0AF1A6599284}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstrucManagement.Application", "..\ConstrucManagement.Application\ConstrucManagement.Application.csproj", "{7BE19785-67D4-4173-9448-0AF1A6599284}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstrucManagement.Domain", "..\ConstrucManagement.Domain\ConstrucManagement.Domain.csproj", "{39BD43FF-90A5-4927-B79E-F5F7363DB33F}"
 EndProject
