@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConstructoManagement.Domain.Exceptions
+namespace ConstrucManagement.Domain.Exceptions
 {
     public class NotFoundException : DomainException
     {

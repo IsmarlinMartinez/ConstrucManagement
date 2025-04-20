@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConstructoManagement.Domain.Enums
+namespace ConstrucManagement.Domain.Enums
 {
     public enum TipoRecurso
     {

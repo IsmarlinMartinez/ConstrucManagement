@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConstructoManagement.Domain.Common
+namespace ConstrucManagement.Domain.Common
 {
     public abstract class BaseEntity
     {

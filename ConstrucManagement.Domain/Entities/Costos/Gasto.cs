@@ -1,12 +1,12 @@
-﻿using ConstructoManagement.Domain.Common;
-using ConstructoManagement.Domain.Exceptions;
+﻿using ConstrucManagement.Domain.Common;
+using ConstrucManagement.Domain.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConstructoManagement.Domain.Entities.Costos
+namespace ConstrucManagement.Domain.Entities.Costos
 {
     public class Gasto : BaseEntity
     {

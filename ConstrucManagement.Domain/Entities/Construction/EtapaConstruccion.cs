@@ -1,9 +1,9 @@
-﻿using ConstrucManagement.Domain.Common;
+﻿using ConstrucManagement.Domain.Enums;
+using ConstrucManagement.Domain.Common;
+using ConstrucManagement.Domain.Exceptions;
 using ConstrucManagement.Domain.Entities.Resources;
-using ConstrucManagement.Domain.Enums;
-using ConstructoManagement.Domain.Common;
 
-namespace ConstructoManagement.Domain.Entities.Construction
+namespace ConstrucManagement.Domain.Entities.Construction
 {
     public class EtapaConstruccion : BaseEntity
     {

@@ -1,6 +1,6 @@
 ﻿
 
-namespace ConstructoManagement.Domain.Enums
+namespace ConstrucManagement.Domain.Enums
 {
     public enum EstadoProyecto
     {

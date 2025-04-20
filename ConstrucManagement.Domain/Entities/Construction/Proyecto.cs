@@ -1,9 +1,9 @@
 ﻿using ConstrucManagement.Domain.Entities.Construction;
 using ConstrucManagement.Domain.Enums;
-using ConstructoManagement.Domain.Common;
+using ConstrucManagement.Domain.Common;
 
 
-namespace ConstructoManagement.Domain.Entities.Construction
+namespace ConstrucManagement.Domain.Entities.Construction
 {
     public class Proyecto : BaseEntity, IAggregateRoot
     {
