@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConstrucManagement.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d172c928820947b39a18970089a4025137cad4b")]
+
 [assembly: System.Reflection.AssemblyProductAttribute("ConstrucManagement.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConstrucManagement.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
