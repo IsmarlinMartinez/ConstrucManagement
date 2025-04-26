@@ -1,4 +1,4 @@
-﻿using ConstrucManagement.Frontend.Controllers.ConstrucManagement.Domain.Construction;
+﻿
 using System.ComponentModel.DataAnnotations;
 namespace ConstrucManagement.Domain.Construction
 {

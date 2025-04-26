@@ -1,11 +1,6 @@
-﻿using ConstrucManagement.Domain.Entities.Resources;
-using ConstrucManagement.Domain.Common;
-using ConstrucManagement.Domain.Exceptions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ConstrucManagement.Domain.Common;
+using ConstrucManagement.Domain.Entities.Construction;
+using ConstrucManagement.Domain.Exceptions.DomainExeptions;
 
 namespace ConstrucManagement.Domain.Entities.Resources
 {

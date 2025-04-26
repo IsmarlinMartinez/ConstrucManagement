@@ -1,73 +1,97 @@
-﻿using ConstrucManagement.Domain.Entities.Construction;
+﻿using ConstrucManagement.Domain.Common;
+using ConstrucManagement.Domain.Entities.Finance;
+using ConstrucManagement.Domain.Entities.Documentacion;
 using ConstrucManagement.Domain.Enums;
+using ConstrucManagement.Domain.ValueObjects;
+using ConstrucManagement.Domain.Exceptions.DomainExeptions;
 
 
 namespace ConstrucManagement.Domain.Entities.Construction
 {
-    public class Proyectos : BaseEntity
+    public class Proyecto : BaseEntity
     {
+        // Propiedades
         public string Nombre { get; private set; }
         public string Descripcion { get; private set; }
-        public string Ubicacion { get; private set; }
         public string Cliente { get; private set; }
+        public Direccion Ubicacion { get; private set; }
         public DateTime FechaInicio { get; private set; }
         public DateTime FechaFinEstimada { get; private set; }
-        public decimal Presupuesto { get; private set; }
+        public DateTime? FechaFinReal { get; private set; }
+        public decimal PresupuestoInicial { get; private set; }
         public EstadoProyecto Estado { get; private set; }
 
-        private readonly List<EtapaConstruccion> _etapas = new();
-        public IReadOnlyCollection<EtapaConstruccion> Etapas => _etapas.AsReadOnly();
+        
+        public ICollection<EtapaConstruccion> Etapas { get; private set; } = new List<EtapaConstruccion>();
+        public ICollection<Presupuesto> Presupuestos { get; private set; } = new List<Presupuesto>();
+        public ICollection<Documento> Documentos { get; private set; } = new List<Documento>();
 
-        private readonly List<EtapaDependencia> _dependencias = new();
-        public IReadOnlyCollection<EtapaDependencia> Dependencias => _dependencias.AsReadOnly();
+   
+        private Proyecto() { }
 
-        public Proyectos(string nombre, string descripcion, string ubicacion, string cliente,
-            DateTime fechaInicio, DateTime fechaFinEstimada, decimal presupuesto)
+      
+        public Proyecto(string nombre, string descripcion, string cliente, Direccion ubicacion,
+                       DateTime fechaInicio, DateTime fechaFinEstimada, decimal presupuestoInicial)
         {
-            Nombre = nombre ?? throw new DomainException("El nombre del proyecto es requerido");
+            Nombre = nombre ?? throw new ArgumentNullException(nameof(nombre));
             Descripcion = descripcion;
-            Ubicacion = ubicacion ?? throw new DomainException("La ubicación del proyecto es requerida");
-            Cliente = cliente ?? throw new DomainException("El cliente del proyecto es requerido");
+            Cliente = cliente ?? throw new ArgumentNullException(nameof(cliente));
+            Ubicacion = ubicacion ?? throw new ArgumentNullException(nameof(ubicacion));
             FechaInicio = fechaInicio;
             FechaFinEstimada = fechaFinEstimada;
-            Presupuesto = presupuesto > 0 ? presupuesto
-                : throw new DomainException("El presupuesto debe ser mayor a cero");
-            Estado = EstadoProyecto.Planificacion;
+            PresupuestoInicial = presupuestoInicial > 0 ? presupuestoInicial :
+                throw new ArgumentException("El presupuesto debe ser mayor a cero", nameof(presupuestoInicial));
+            Estado = EstadoProyecto.NoIniciada;
         }
 
-        public void ActualizarEstado(EstadoProyecto nuevoEstado)
+  
+        public void ActualizarInformacion(string nombre, string descripcion, string cliente, Direccion ubicacion)
         {
-            if (Estado == EstadoProyecto.Completada || Estado == EstadoProyecto.Cancelada)
-                throw new DomainException("No se puede modificar un proyecto finalizado o cancelado");
+            Nombre = nombre ?? throw new ArgumentNullException(nameof(nombre));
+            Descripcion = descripcion;
+            Cliente = cliente ?? throw new ArgumentNullException(nameof(cliente));
+            Ubicacion = ubicacion ?? throw new ArgumentNullException(nameof(ubicacion));
+            UpdateModifiedDate();
+        }
+
+        public void ActualizarFechas(DateTime fechaInicio, DateTime fechaFinEstimada)
+        {
+            if (fechaFinEstimada < fechaInicio)
+                throw new DomainException("La fecha de fin estimada no puede ser anterior a la fecha de inicio");
+
+            FechaInicio = fechaInicio;
+            FechaFinEstimada = fechaFinEstimada;
+            UpdateModifiedDate();
+        }
+
+        public void ActualizarPresupuesto(decimal nuevoPresupuesto)
+        {
+            if (nuevoPresupuesto <= 0)
+                throw new DomainException("El presupuesto debe ser mayor a cero");
+
+            PresupuestoInicial = nuevoPresupuesto;
+            UpdateModifiedDate();
+        }
+
+        public void CambiarEstado(EstadoProyecto nuevoEstado)
+        {
+            if (Estado == nuevoEstado) return;
+
+           
+            if (nuevoEstado == EstadoProyecto.Completada && !TodasEtapasCompletadas())
+                throw new DomainException("No se puede completar el proyecto si no todas las etapas están completadas");
 
             Estado = nuevoEstado;
-            AddDomainEvent(new ProyectoEstadoCambiadoEvent(this));
+
+            if (nuevoEstado == EstadoProyecto.Completada)
+                FechaFinReal = DateTime.UtcNow;
+
+            UpdateModifiedDate();
         }
 
-        public void AgregarEtapa(EtapaConstruccion etapa)
+        private bool TodasEtapasCompletadas()
         {
-            if (etapa == null)
-                throw new DomainException("La etapa no puede ser nula");
-
-            _etapas.Add(etapa);
-        }
-
-        public void AgregarDependencia(EtapaDependencia dependencia)
-        {
-            if (dependencia == null)
-                throw new DomainException("La dependencia no puede ser nula");
-
-            _dependencias.Add(dependencia);
-        }
-    }
-
-    public class ProyectoEstadoCambiadoEvent : IDomainEvent
-    {
-        public Proyectos Proyecto { get; }
-
-        public ProyectoEstadoCambiadoEvent(Proyectos proyecto)
-        {
-            Proyecto = proyecto;
+            return Etapas.All(e => e.Estado == EstadoEtapa.Completada);
         }
     }
 }

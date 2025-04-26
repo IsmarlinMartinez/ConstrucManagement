@@ -1,40 +1,52 @@
 ﻿using ConstrucManagement.Domain.Common;
-using ConstrucManagement.Domain.Entities.Construction;
-using ConstrucManagement.Domain.Exceptions;
+using ConstrucManagement.Domain.Entities.Resources;
 
-namespace ConstrucManagement.Domain.Entities.Resources
+namespace ConstrucManagement.Domain.Entities.Construction
 {
     public class AsignacionRecurso : BaseEntity
     {
-        public int EtapaConstruccionId { get; private set; }
-        public EtapaConstruccion EtapaConstruccion { get; private set; }
 
-        public int RecursoId { get; private set; }
-        public string TipoRecurso { get; private set; }
-        public decimal Cantidad { get; private set; }
+        public int Cantidad { get; private set; }
         public DateTime FechaAsignacion { get; private set; }
-        public DateTime? FechaLiberacion { get; private set; }
+        public DateTime? FechaRetiro { get; private set; }
         public string Observaciones { get; private set; }
 
-        public AsignacionRecurso(int etapaConstruccionId, int recursoId,
-            string tipoRecurso, decimal cantidad, string observaciones)
+        public int EtapaId { get; private set; }
+        public EtapaConstruccion Etapa { get; private set; }
+        public int RecursoId { get; private set; }
+        public Recurso Recurso { get; private set; }
+
+        private AsignacionRecurso() { }
+
+        public AsignacionRecurso(int etapaId, int recursoId, int cantidad, string observaciones = null)
         {
-            EtapaConstruccionId = etapaConstruccionId;
+            if (cantidad <= 0)
+                throw new ArgumentException("La cantidad debe ser mayor a cero", nameof(cantidad));
+
+            EtapaId = etapaId;
             RecursoId = recursoId;
-            TipoRecurso = tipoRecurso ?? throw new DomainException("El tipo de recurso es requerido");
-            Cantidad = cantidad > 0 ? cantidad
-                : throw new DomainException("La cantidad debe ser mayor a cero");
-            FechaAsignacion = DateTime.UtcNow;
+            Cantidad = cantidad;
             Observaciones = observaciones;
+            FechaAsignacion = DateTime.UtcNow;
         }
 
-        public void LiberarRecurso(string observaciones)
+        public void Retirar(string observaciones = null)
         {
-            if (FechaLiberacion.HasValue)
-                throw new DomainException("El recurso ya fue liberado");
+            if (FechaRetiro.HasValue)
+                throw new InvalidOperationException("El recurso ya ha sido retirado");
 
-            FechaLiberacion = DateTime.UtcNow;
+            FechaRetiro = DateTime.UtcNow;
             Observaciones = observaciones;
+            UpdateModifiedDate();
+        }
+
+        public void ActualizarCantidad(int nuevaCantidad)
+        {
+            if (nuevaCantidad <= 0)
+                throw new ArgumentException("La cantidad debe ser mayor a cero", nameof(nuevaCantidad));
+
+            Cantidad = nuevaCantidad;
+            UpdateModifiedDate();
         }
     }
 }

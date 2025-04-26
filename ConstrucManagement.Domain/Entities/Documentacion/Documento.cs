@@ -2,6 +2,7 @@
 using ConstrucManagement.Domain.Entities.Construction;
 using ConstrucManagement.Domain.Enums;
 using ConstrucManagement.Domain.Exceptions;
+using ConstrucManagement.Domain.Exceptions.DomainExeptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;

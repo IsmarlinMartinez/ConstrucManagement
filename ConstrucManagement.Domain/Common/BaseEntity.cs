@@ -14,33 +14,13 @@ namespace ConstrucManagement.Domain.Common
         public string CreatedBy { get; set; }
         public string ModifiedBy { get; set; }
 
-        private readonly List<IDomainEvent> _domainEvents = new();
-        public IReadOnlyCollection<IDomainEvent> DomainEvents => _domainEvents.AsReadOnly();
+       public bool IsDeleted { get; set; } = false;
 
-        public void AddDomainEvent(IDomainEvent eventItem) => _domainEvents.Add(eventItem);
-        public void ClearDomainEvents() => _domainEvents.Clear();
-
-        public override bool Equals(object obj)
+        protected void UpdateModifiedDate()
         {
-            if (obj is not BaseEntity other)
-                return false;
-
-            if (ReferenceEquals(this, other))
-                return true;
-
-            if (GetType() != other.GetType())
-                return false;
-
-            if (Id == 0 || other.Id == 0)
-                return false;
-
-            return Id == other.Id;
+            ModifiedDate = DateTime.UtcNow;
         }
-
-        public override int GetHashCode() => (GetType().ToString() + Id).GetHashCode();
     }
-
-    public interface IDomainEvent { }
 }
 
 

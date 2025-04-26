@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ConstrucManagement.Domain.Construction;
-using ConstrucManagement.Frontend.Data;
+using ConstrucManagement.Infrastructure.Data;
 
-namespace ConstrucManagement.Frontend.Controllers
+namespace ConstrucManagement.Infrastructure.Data
 {
     public class ProyectosController : Controller
     {
