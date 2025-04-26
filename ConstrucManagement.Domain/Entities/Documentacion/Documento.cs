@@ -1,14 +1,14 @@
-﻿using ConstructoManagement.Domain.Common;
-using ConstructoManagement.Domain.Entities.Construction;
-using ConstructoManagement.Domain.Enums;
-using ConstructoManagement.Domain.Exceptions;
+﻿using ConstrucManagement.Domain.Common;
+using ConstrucManagement.Domain.Entities.Construction;
+using ConstrucManagement.Domain.Enums;
+using ConstrucManagement.Domain.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConstructoManagement.Domain.Entities.Documentacion
+namespace ConstrucManagement.Domain.Entities.Documentacion
 {
     public class Documento : BaseEntity
     {
