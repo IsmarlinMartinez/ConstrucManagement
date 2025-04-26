@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConstrucManagement.Frontend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb23656e0290454b78c35a36ac22b07f6efe08c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b35d461eb2ab089b1c4416170aa0752e56054c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConstrucManagement.Frontend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConstrucManagement.Frontend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
