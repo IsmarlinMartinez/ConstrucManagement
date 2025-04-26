@@ -1,4 +1,4 @@
-namespace ConstrucManagement.Frontend.Models
+namespace ConstrucManagement.Frontend.Controllers
 {
     public class ErrorViewModel
     {
