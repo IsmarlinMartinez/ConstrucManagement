@@ -1,14 +1,8 @@
 ﻿using ConstrucManagement.Domain.Entities.Construction;
 using ConstrucManagement.Domain.Enums;
-<<<<<<< Updated upstream:ConstrucManagement.Domain/Entities/Construction/Proyecto.cs
-using ConstructoManagement.Domain.Common;
-=======
-using ConstrucManagement.Domain.Common;
-using ConstrucManagement.Domain.Exceptions;
->>>>>>> Stashed changes:ConstrucManagement.Domain/Entities/Construction/Proyectos.cs
 
 
-namespace ConstructoManagement.Domain.Entities.Construction
+namespace ConstrucManagement.Domain.Entities.Construction
 {
     public class Proyectos : BaseEntity
     {

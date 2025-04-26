@@ -1,8 +1,8 @@
-﻿using ConstructoManagement.Domain.Common;
-using ConstructoManagement.Domain.Entities.Construction;
-using ConstructoManagement.Domain.Exceptions;
+﻿using ConstrucManagement.Domain.Common;
+using ConstrucManagement.Domain.Entities.Construction;
+using ConstrucManagement.Domain.Exceptions;
 
-namespace ConstructoManagement.Domain.Entities.Resources
+namespace ConstrucManagement.Domain.Entities.Resources
 {
     public class AsignacionRecurso : BaseEntity
     {

@@ -3,6 +3,33 @@
   "WorkspaceRootPath": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\construction\\etapaconstruccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\construction\\etapadependencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\construction\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\documentacion\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\documentacion\\versiondocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\identity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\identity\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
 <<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\resources\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,61 +40,28 @@
       "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\resources\\asignacionrecurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\enums\\tiporecurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\enums\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\enums\\estadoproyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\identity\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\interfaces\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\identity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\documentacion\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\documentacion\\versiondocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\costos\\presupuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\interfaces\\iauditable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\costos\\gasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\resources\\personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\costos\\presupuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\construction\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F4151BF-33BA-4C95-B026-FCC0AE4FEEE2}|..\\ConstrucManagement.Api\\ConstrucManagement.Api.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-=======
-      "AbsoluteMoniker": "D:0:0:{1375E5F7-2D7F-4041-AB4D-7DAB68984D48}|..\\ConstrucManagement.Frontend\\ConstrucManagement.Frontend.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.frontend\\views\\proyectos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1375E5F7-2D7F-4041-AB4D-7DAB68984D48}|..\\ConstrucManagement.Frontend\\ConstrucManagement.Frontend.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.frontend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1375E5F7-2D7F-4041-AB4D-7DAB68984D48}|..\\ConstrucManagement.Frontend\\ConstrucManagement.Frontend.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.frontend\\views\\proyectos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1375E5F7-2D7F-4041-AB4D-7DAB68984D48}|..\\ConstrucManagement.Frontend\\ConstrucManagement.Frontend.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.frontend\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1375E5F7-2D7F-4041-AB4D-7DAB68984D48}|..\\ConstrucManagement.Frontend\\ConstrucManagement.Frontend.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.frontend\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1375E5F7-2D7F-4041-AB4D-7DAB68984D48}|..\\ConstrucManagement.Frontend\\ConstrucManagement.Frontend.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.frontend\\views\\proyectos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1375E5F7-2D7F-4041-AB4D-7DAB68984D48}|..\\ConstrucManagement.Frontend\\ConstrucManagement.Frontend.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.frontend\\views\\proyectos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1375E5F7-2D7F-4041-AB4D-7DAB68984D48}|..\\ConstrucManagement.Frontend\\ConstrucManagement.Frontend.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.frontend\\views\\proyectos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39BD43FF-90A5-4927-B79E-F5F7363DB33F}|..\\ConstrucManagement.Domain\\ConstrucManagement.Domain.csproj|c:\\finalprojectp2\\construcmanagement\\construcmanagement.domain\\entities\\construction\\proyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> Stashed changes
+    
     }
   ],
   "DocumentGroupContainers": [
@@ -78,268 +72,247 @@
         {
 <<<<<<< Updated upstream
           "DockedHeight": 253,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EstadoProyecto.cs",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Enums\\EstadoProyecto.cs",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Enums\\EstadoProyecto.cs",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Enums\\EstadoProyecto.cs",
-              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Enums\\EstadoProyecto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T15:01:03.904Z",
-=======
-          "DockedHeight": 421,
-          "SelectedChildIndex": 5,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Views\\Proyectos\\Details.cshtml",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Frontend\\Views\\Proyectos\\Details.cshtml",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Views\\Proyectos\\Details.cshtml",
-              "RelativeToolTip": "..\\ConstrucManagement.Frontend\\Views\\Proyectos\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T00:14:29.081Z",
->>>>>>> Stashed changes
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-<<<<<<< Updated upstream
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Identity\\Rol.cs",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Identity\\Rol.cs",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Identity\\Rol.cs",
-              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Identity\\Rol.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T15:00:11.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Identity\\Usuario.cs",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Identity\\Usuario.cs",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Identity\\Usuario.cs",
-              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Identity\\Usuario.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAswC4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:59:44.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VersionDocumento.cs",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Documentacion\\VersionDocumento.cs",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Documentacion\\VersionDocumento.cs",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Documentacion\\VersionDocumento.cs",
-              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Documentacion\\VersionDocumento.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA8wCAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:58:55.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Documento.cs",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Documentacion\\Documento.cs",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Documentacion\\Documento.cs",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Documentacion\\Documento.cs",
-              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Documentacion\\Documento.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAA7wDIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:58:26.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Gasto.cs",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Costos\\Gasto.cs",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Costos\\Gasto.cs",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Costos\\Gasto.cs",
-              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Costos\\Gasto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:57:32.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Presupuesto.cs",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Costos\\Presupuesto.cs",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Costos\\Presupuesto.cs",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Costos\\Presupuesto.cs",
-              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Costos\\Presupuesto.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAiwDIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:57:03.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AsignacionRecurso.cs",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Resources\\AsignacionRecurso.cs",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Resources\\AsignacionRecurso.cs",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Resources\\AsignacionRecurso.cs",
-              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Resources\\AsignacionRecurso.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:55:42.884Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Personal.cs",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Resources\\Personal.cs",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Resources\\Personal.cs",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Resources\\Personal.cs",
-              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Resources\\Personal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:55:28.038Z",
-=======
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Frontend\\Data\\DataContext.cs",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Data\\DataContext.cs",
-              "RelativeToolTip": "..\\ConstrucManagement.Frontend\\Data\\DataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T04:57:49.395Z",
->>>>>>> Stashed changes
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-<<<<<<< Updated upstream
               "Title": "Equipo.cs",
               "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Resources\\Equipo.cs",
               "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Resources\\Equipo.cs",
               "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Resources\\Equipo.cs",
               "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Resources\\Equipo.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwvy0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:54:51.285Z",
-=======
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Frontend\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "..\\ConstrucManagement.Frontend\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T22:12:33.124Z",
->>>>>>> Stashed changes
+              "WhenOpened": "2025-04-20T20:53:37.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Material.cs",
               "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Resources\\Material.cs",
               "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Resources\\Material.cs",
               "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Resources\\Material.cs",
               "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Resources\\Material.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAmwDcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:53:47.414Z",
+              "WhenOpened": "2025-04-20T20:52:40.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TipoRecurso.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Enums\\TipoRecurso.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Enums\\TipoRecurso.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Enums\\TipoRecurso.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Enums\\TipoRecurso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:52:33.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TipoDocumento.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Enums\\TipoDocumento.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Enums\\TipoDocumento.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Enums\\TipoDocumento.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Enums\\TipoDocumento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:52:25.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EstadoProyecto.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Enums\\EstadoProyecto.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Enums\\EstadoProyecto.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Enums\\EstadoProyecto.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Enums\\EstadoProyecto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:52:18.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Proyecto.cs",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Construction\\Proyecto.cs",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Construction\\Proyecto.cs",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Construction\\Proyecto.cs",
-              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Construction\\Proyecto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Title": "AsignacionRecurso.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Resources\\AsignacionRecurso.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Resources\\AsignacionRecurso.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Resources\\AsignacionRecurso.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Resources\\AsignacionRecurso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:41:08.14Z",
-=======
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Views\\Proyectos\\Create.cshtml",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Frontend\\Views\\Proyectos\\Create.cshtml",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Views\\Proyectos\\Create.cshtml*",
-              "RelativeToolTip": "..\\ConstrucManagement.Frontend\\Views\\Proyectos\\Create.cshtml*",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T00:14:01.35Z",
->>>>>>> Stashed changes
+              
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Views\\Proyectos\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Frontend\\Views\\Proyectos\\Index.cshtml",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Views\\Proyectos\\Index.cshtml*",
-              "RelativeToolTip": "..\\ConstrucManagement.Frontend\\Views\\Proyectos\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T05:29:38.041Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:51:30.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProyectosController.cs",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Controllers\\ProyectosController.cs",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Frontend\\Controllers\\ProyectosController.cs",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Controllers\\ProyectosController.cs",
-              "RelativeToolTip": "..\\ConstrucManagement.Frontend\\Controllers\\ProyectosController.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAIwJwAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Identity\\Usuario.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Identity\\Usuario.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Identity\\Usuario.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Identity\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T04:51:43.415Z",
+              "WhenOpened": "2025-04-20T20:51:15.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Identity\\Rol.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Identity\\Rol.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Identity\\Rol.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Identity\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:51:02.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Views\\Proyectos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Frontend\\Views\\Proyectos\\Delete.cshtml",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Views\\Proyectos\\Delete.cshtml",
-              "RelativeToolTip": "..\\ConstrucManagement.Frontend\\Views\\Proyectos\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T22:12:30.844Z",
+              "Title": "VersionDocumento.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Documentacion\\VersionDocumento.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Documentacion\\VersionDocumento.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Documentacion\\VersionDocumento.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Documentacion\\VersionDocumento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:50:43.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Views\\Proyectos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Frontend\\Views\\Proyectos\\Edit.cshtml",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Frontend\\Views\\Proyectos\\Edit.cshtml",
-              "RelativeToolTip": "..\\ConstrucManagement.Frontend\\Views\\Proyectos\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T00:13:01.049Z",
+              "Title": "Documento.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Documentacion\\Documento.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Documentacion\\Documento.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Documentacion\\Documento.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Documentacion\\Documento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:50:18.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:49:59.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Exceptions\\DomainException.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Exceptions\\DomainException.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Exceptions\\DomainException.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Exceptions\\DomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:49:51.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Presupuesto.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Costos\\Presupuesto.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Costos\\Presupuesto.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Costos\\Presupuesto.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Costos\\Presupuesto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:49:25.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Gasto.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Costos\\Gasto.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Costos\\Gasto.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Costos\\Gasto.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Costos\\Gasto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:49:13.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Proyecto.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Construction\\Proyecto.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Construction\\Proyecto.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Construction\\Proyecto.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Construction\\Proyecto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:48:57.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+       
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+           
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+         
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+             
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:47:54.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAuditable.cs",
+              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Interfaces\\IAuditable.cs",
+              "RelativeDocumentMoniker": "..\\ConstrucManagement.Domain\\Entities\\Interfaces\\IAuditable.cs",
+              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Domain\\Entities\\Interfaces\\IAuditable.cs",
+              "RelativeToolTip": "..\\ConstrucManagement.Domain\\Entities\\Interfaces\\IAuditable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+       
               "EditorCaption": ""
             },
             {
@@ -365,22 +338,7 @@
               "$type": "Bookmark",
 <<<<<<< Updated upstream
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\ConstrucManagement.Api\\appsettings.json",
-              "ToolTip": "C:\\FinalProjectP2\\ConstrucManagement\\ConstrucManagement.Api\\appsettings.json",
-              "RelativeToolTip": "..\\ConstrucManagement.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-20T14:32:53.074Z",
-              "EditorCaption": ""
-=======
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
->>>>>>> Stashed changes
+           
             }
           ]
         }

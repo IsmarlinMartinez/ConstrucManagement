@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConstructoManagement.Domain.Interfaces
+namespace ConstrucManagement.Domain.Interfaces
 {
     public interface IEntity
     {
